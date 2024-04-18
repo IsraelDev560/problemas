@@ -24,3 +24,24 @@ if (myList.includes(55)){
 else {
 	console.log("Não tá na lista")
 }
+
+// Outra forma
+// let n1 = 0;
+// let n2 = 1;
+// let temporaria = 0;
+// let checagem = false;
+
+// while(temporaria < 55){
+//     temporaria = n1;
+// 	n1 = n2;
+//     n2 = n2 + temporaria;
+// 	// console.log(temporaria);
+// 	if (temporaria == 55){
+// 		console.log("Pertence a sequência");
+// 		checagem = true;
+// 		break;
+// 	}
+// }
+// if(!checagem){
+// 	console.log("Não pertence a sequência");
+// }
